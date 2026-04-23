@@ -18,5 +18,9 @@ jobs:
         run: |
           python -m pip install --upgrade pip
           pip install mkdocs mkdocs-material
+      - name: Validate snippets
+        run: python scripts/check_snippets.py
+      - name: Validate relative links
+        run: python scripts/check_links.py
       - name: Build docs
         run: mkdocs build --strict

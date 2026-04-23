@@ -25,6 +25,7 @@ markdown_extensions:
       permalink: true
 nav:
   - Home: index.md
+  - Versioning: versioning.md
   - Getting Started:
       - Overview: 1.x/overview.md
       - Installation: 1.x/installation.md
