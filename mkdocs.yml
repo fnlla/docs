@@ -1,0 +1,38 @@
+﻿site_name: FNLLA Documentation
+site_description: Official FNLLA docs for framework, runtime, and tooling.
+site_url: https://fnlla.github.io/docs/
+repo_name: fnlla/docs
+repo_url: https://github.com/fnlla/docs
+theme:
+  name: material
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: blue grey
+      accent: cyan
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: blue grey
+      accent: cyan
+  features:
+    - navigation.sections
+    - navigation.top
+    - content.code.copy
+markdown_extensions:
+  - admonition
+  - tables
+  - toc:
+      permalink: true
+nav:
+  - Home: index.md
+  - Getting Started:
+      - Overview: 1.x/overview.md
+      - Installation: 1.x/installation.md
+      - Configuration: 1.x/configuration.md
+  - Framework:
+      - Routing: 1.x/routing.md
+      - Queue: 1.x/queue.md
+      - Security: 1.x/security.md
+  - Operations:
+      - Runtime: 1.x/runtime.md
+      - Deployment: 1.x/deployment.md
