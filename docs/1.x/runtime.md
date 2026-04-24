@@ -1,3 +1,3 @@
-﻿# Runtime
+# Runtime
 
-Local runtime can be provisioned with the dedicated `fnlla/dev-env` repository.
+Local runtime should be provisioned with your team's standard container or VM tooling.
